@@ -1,11 +1,20 @@
 {
   "name": "rncstyles",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "it is a library for React Native Users. By this library you can save your time by using this styles like bootstrap",
   "main": "styling.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.60.0"
+  },
+  "keywords": [
+    "react-native",
+    "components",
+    "styles"
+  ],
   "author": "Basit Ahmed",
   "license": "ISC"
 }

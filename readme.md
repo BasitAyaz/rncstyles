@@ -1,5 +1,5 @@
 
-# RNC Styles
+# RNC Styles - Elevate Your React Native UI Design
 
 ![RNC Styles Logo](https://rncstyles.com/static/media/logo.859b6eba4e978fb4417b.png)
 
@@ -10,9 +10,12 @@ Documentation: [Read the Docs](https://rncstyles.com/docs)
 Facebook Page: [Follow us on Facebook](https://www.facebook.com/rncstyles)
 
 [![GitHub License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-[![npm Version](https://img.shields.io/npm/v/rnc-styles)](https://www.npmjs.com/package/rnc-styles)
-[![npm Downloads](https://img.shields.io/npm/dm/rnc-styles)](https://www.npmjs.com/package/rnc-styles)
-[![GitHub Stars](https://img.shields.io/github/stars/BasitAyaz/rnc-styles?style=social)](https://github.com/BasitAyaz/rnc-styles/stargazers)
+[![npm Version](https://img.shields.io/npm/v/rnc-styles)](https://www.npmjs.com/package/rncstyles)
+[![npm Downloads](https://img.shields.io/npm/dm/rnc-styles)](https://www.npmjs.com/package/rncstyles)
+[![GitHub Stars](https://img.shields.io/github/stars/BasitAyaz/rncstyles?style=social)](https://github.com/BasitAyaz/rncstyles/stargazers)
+
+
+---
 
 ## Features
 
@@ -26,7 +29,12 @@ Facebook Page: [Follow us on Facebook](https://www.facebook.com/rncstyles)
 1. Install RNC Styles using npm:
 
    ```bash
-   npm install rnc-styles
+   npm install rncstyles
+   ```
+   or
+
+   ```bash
+   yarn add rncstyles
    ```
 
 2. Import and use styles in your React Native project:
@@ -50,6 +58,9 @@ This project is licensed under the [ISC License](LICENSE).
 
 - Official Website: [rncstyles.com](https://rncstyles.com/)
 - Facebook Page: [Follow us on Facebook](https://www.facebook.com/rncstyles)
+- [npm Package](https://www.npmjs.com/package/rncstyles)
+- [Discord Community](https://discord.com/invite/D9maxJ4u)
+- [GitHub Repository](https://github.com/BasitAyaz/rncstyles)
 
 ---
 
@@ -58,3 +69,6 @@ This project is licensed under the [ISC License](LICENSE).
 Thank you for choosing RNC Styles for your React Native app styling needs!
 
 
+
+## Keywords
+React, React JS, React Native, Mobile Development, UI Styling, Styling Library, RNC Styles, Responsive Design, Pre-built Styles, npm, Open Source, Community, Bootstrap for React Native
