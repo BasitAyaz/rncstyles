@@ -1,20 +1,23 @@
 // import {Appearance} from 'react-native';
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextStyle, ViewStyle } from "react-native";
 
 // const colorScheme = Appearance.getColorScheme();
 // const darkTheme = colorScheme === 'dark' ? true : false;
 
-let _dark = "#023e8a";
-let _light = "#f0effb";
-let _success = "#208b3a";
-let _warning = "#ec7d10";
-let _danger = "#fc2f00";
-let _secondary = "#353535";
-let _black = "#000000";
-let _info = "#007ea7";
-let _white = "#ffffff";
-let _themeLight = "#d3ffd8";
-let _transparent = "rgba(0,0,0,.2)";
+export let _dark = "#023e8a";
+export let _light = "#f0effb";
+export let _success = "#208b3a";
+export let _warning = "#ec7d10";
+export let _danger = "#fc2f00";
+export let _secondary = "#353535";
+export let _black = "#000000";
+export let _info = "#007ea7";
+export let _white = "#ffffff";
+export let _themeLight = "#d3ffd8";
+export let _transparent = "rgba(0,0,0,.2)";
+
+
+
 
 const styling = {
   textWhite: {
@@ -1007,24 +1010,6 @@ const styling = {
   positionAbsolute: {
     position: "absolute",
   },
-  Positionfloat: {
-    position: "fixed",
-    bottom: 20,
-    right: 20,
-  },
-  positionFixed: {
-    position: "fixed",
-  },
-  _dark: _dark,
-  _light: _light,
-  _success: _success,
-  _warning: _warning,
-  _danger: _danger,
-  _secondary: _secondary,
-  _black: _black,
-  _info: _info,
-  _white: _white,
-  _transparent: _transparent,
 };
 
 const rncStyles = StyleSheet.create(styling);
