@@ -1,14 +1,8 @@
 {
   "name": "rncstyles",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "it is a library for React Native Users. By this library you can save your time by using this styles like bootstrap",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/BasitAyaz/rncstyles"
@@ -23,11 +17,5 @@
     "styles"
   ],
   "author": "Basit Ahmed",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  },
-  "files": [
-    "lib/**/*"
-  ]
+  "license": "ISC"
 }

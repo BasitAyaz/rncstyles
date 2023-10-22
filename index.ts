@@ -19,7 +19,7 @@ export let _transparent = "rgba(0,0,0,.2)";
 
 
 
-const styling = {
+const styling: StyleSheet.NamedStyles<any> | StyleSheet.NamedStyles<any> = {
   textWhite: {
     color: _white,
   },
