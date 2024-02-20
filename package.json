@@ -1,6 +1,6 @@
 {
   "name": "rncstyles",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "it is a library for React Native Users. By this library you can save your time by using this styles like bootstrap",
   "main": "index.ts",
   "repository": {
@@ -8,7 +8,8 @@
     "url": "https://github.com/BasitAyaz/rncstyles"
   },
   "peerDependencies": {
-    "react-native": "0.72.6"
+    "react-native": "*",
+    "react": "*"
   },
   "keywords": [
     "react-native",

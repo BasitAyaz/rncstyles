@@ -1,5 +1,12 @@
 // import {Appearance} from 'react-native';
 import { StyleSheet, TextStyle, ViewStyle } from "react-native";
+import RNCButton from "./components/RNCButton";
+import RNCHeading from "./components/RNCHeading";
+import RNCLoader from "./components/RNCLoader";
+import RNCLoaderSmall from "./components/RNCLoaderSmall";
+import RNCSwitchSelect from "./components/RNCSwitchSelect";
+import RNCTextarea from "./components/RNCTextarea";
+import RNCInput from "./components/RNCInput";
 
 // const colorScheme = Appearance.getColorScheme();
 // const darkTheme = colorScheme === 'dark' ? true : false;
@@ -16,10 +23,13 @@ export let _white = "#ffffff";
 export let _themeLight = "#d3ffd8";
 export let _transparent = "rgba(0,0,0,.2)";
 
+// components 
+export { RNCButton, RNCHeading, RNCLoader, RNCLoaderSmall, RNCSwitchSelect, RNCTextarea, RNCInput };
 
 
 
-const styling: StyleSheet.NamedStyles<any> | StyleSheet.NamedStyles<any> = {
+
+const styling: any = {
   textWhite: {
     color: _white,
   },

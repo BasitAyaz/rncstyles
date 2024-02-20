@@ -40,7 +40,7 @@ Facebook Page: [Follow us on Facebook](https://www.facebook.com/rncstyles)
 2. Import and use styles in your React Native project:
 
    ```javascript
-   import RNCStyles from 'rnc-styles';
+   import RNCStyles from 'rncstyles';
    // Use styles from RNCStyles in your components
    ```
 
