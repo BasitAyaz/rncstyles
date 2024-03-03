@@ -15,7 +15,7 @@ export let _dark = "#023e8a";
 export let _light = "#f0effb";
 export let _success = "#208b3a";
 export let _warning = "#ec7d10";
-export let _danger = "#fc2f00";
+export let _danger = "#c1121f";
 export let _secondary = "#353535";
 export let _black = "#000000";
 export let _info = "#007ea7";
@@ -435,7 +435,7 @@ const styling: any = {
     padding: 10,
     paddingHorizontal: 15,
     fontSize: 17,
-    borderRadius: 30,
+    borderRadius: 10,
     backgroundColor: "#f1f1f1",
     // shadowColor: '#000',
     // shadowOffset: {
@@ -469,7 +469,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -487,7 +487,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -505,7 +505,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -523,7 +523,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -541,7 +541,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -559,7 +559,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -577,7 +577,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -595,7 +595,7 @@ const styling: any = {
     padding: 12,
     paddingHorizontal: 25,
     fontSize: 16,
-    borderRadius: 100,
+    borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,

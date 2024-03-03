@@ -6,12 +6,34 @@ type propsType = {
     icon?: any,
     onChangeText?: any,
     value?: any,
-    disabled?: boolean
-    required?: boolean
+    disabled?: boolean,
+    required?: boolean,
+    color: 'primary' | 'secondary' | 'success' | 'info' | 'error' | 'black' | string | undefined
 }
 
-export default function BATextarea(props: propsType) {
-    const { label, icon, onChangeText, value, disabled, required } = props
+export default function RNCTextarea(props: propsType) {
+    const { label, icon, onChangeText, value, disabled, required, color } = props
+
+    const colorSwitch = (color: 'primary' | 'secondary' | 'success' | 'info' | 'error' | 'black' | string | undefined = 'primary') => {
+        switch (color) {
+            case "primary":
+                return styles.borderPrimary;
+            case "info":
+                return styles.borderInfo;
+            case "black":
+                return styles.borderBlack;
+            case "error":
+                return styles.borderDanger;
+            case "secondary":
+                return styles.borderSecondary;
+            case "success":
+                return styles.borderSuccess;
+            default:
+                return {
+                    borderColor: color
+                }
+        }
+    }
 
     return <>
         <View style={styles.positionRelative}>
@@ -29,7 +51,7 @@ export default function BATextarea(props: propsType) {
                     styles.input,
                     styles.bgWhite,
                     styles.border2,
-                    styles.borderPrimary,
+                    colorSwitch(color),
                     icon && { paddingLeft: 50 }
                 ]}
                 placeholder={label}

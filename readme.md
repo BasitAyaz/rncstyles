@@ -46,6 +46,26 @@ Facebook Page: [Follow us on Facebook](https://www.facebook.com/rncstyles)
 
 For detailed usage instructions, check out our [documentation](https://rncstyles.com/docs).
 
+
+## Extra Content: Version 2.0.1 Update
+
+We are thrilled to announce the launch of **RNC Styles v2.0.1**! This update introduces several new user-friendly components to enhance your React Native app development experience.
+
+### New Components:
+
+- **RNCButton:** A customizable button component for handling user interactions.
+- **RNCSwitchSelect:** An interactive switch selector component for toggling between options.
+- **RNCInput:** A versatile input component for capturing user input data.
+- **RNCRadio:** A radio button component for selecting single options from a list.
+- **RNCHeading:** A heading component for displaying prominent titles and headers.
+- **RNCTextarea:** A multi-line text input component for longer user inputs.
+- **RNCLoader:** A loading indicator component to indicate background activity.
+- **RNCSmallLoader:** A compact loading indicator component for smaller spaces.
+
+### Future Additions:
+In future updates, we plan to introduce even more components to further enrich your React Native app styling capabilities. Stay tuned for updates on upcoming additions!
+
+
 ## Contributing
 
 We welcome contributions from the community. If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
